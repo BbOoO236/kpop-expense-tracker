@@ -43,11 +43,11 @@ independently.
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T006 Set up database connection + migration bootstrap (TypeORM/Prisma) in `backend/src/`
-- [ ] T007 Create `User` entity (`id`, `openid` unique, `nickname`, `avatar`, `created_at`) in `backend/src/modules/auth/user.entity.ts`
-- [ ] T008 Implement WeChat login `POST /auth/login` (`wx.login` code → `code2session` → issue bearer token) in `backend/src/modules/auth/auth.controller.ts`
-- [ ] T009 [P] Set up global validation (class-validator DTOs), error handling, and request logging in `backend/src/`
-- [ ] T010 Implement mini-program auth flow (`wx.login` → call `/auth/login` → store token) in `mini-program/src/api/auth.ts` and `mini-program/src/store/`
+- [X] T006 Set up database connection + migration bootstrap (TypeORM/Prisma) in `backend/src/`
+- [X] T007 Create `User` entity (`id`, `openid` unique, `nickname`, `avatar`, `created_at`) in `backend/src/modules/auth/user.entity.ts`
+- [X] T008 Implement WeChat login `POST /auth/login` (`wx.login` code → `code2session` → issue bearer token) in `backend/src/modules/auth/auth.controller.ts`
+- [X] T009 [P] Set up global validation (class-validator DTOs), error handling, and request logging in `backend/src/`
+- [X] T010 Implement mini-program auth flow (`wx.login` → call `/auth/login` → store token) in `mini-program/src/api/auth.ts` and `mini-program/src/store/`
 
 **Checkpoint**: Foundation ready — user story implementation can now begin.
 
