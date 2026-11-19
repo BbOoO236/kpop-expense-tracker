@@ -19,3 +19,15 @@ Instructions for AI agents working in this repository.
    placeholder line to `backend/.env.example` → document it there.
 6. **If you find a real secret in a tracked file, stop and flag it** — treat it
    as compromised and rotate it.
+
+## Documentation: keep README in sync (after each phase)
+
+After finishing a phase (marking its tasks `[X]` in `specs/001-kpop-expense-tracker/tasks.md`),
+update `README.md` in the **same commit**:
+- the "当前进度" notice and the phase-status table;
+- the completed-tasks checklist for the finished phase(s);
+- the directory structure when new modules/directories were added;
+- the "版本与回滚" tag table (add the new `<phase-slug>` tag).
+
+Then create (or move) the `<phase-slug>` tag to that commit and push the branch
+and tag together.
