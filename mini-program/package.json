@@ -1,0 +1,41 @@
+{
+  "name": "mini-program",
+  "version": "0.0.1",
+  "description": "K-pop Fandom Expense Tracker — WeChat mini-program (uni-app Vue 3 + TypeScript)",
+  "private": true,
+  "scripts": {
+    "dev:h5": "uni",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:h5": "uni build",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.{ts,vue,json}\" \"*.{ts,js,mjs,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,vue,json}\" \"*.{ts,js,mjs,json}\""
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-alpha-5030720261117001",
+    "@dcloudio/uni-components": "3.0.0-alpha-5030720261117001",
+    "@dcloudio/uni-h5": "3.0.0-alpha-5030720261117001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-alpha-5030720261117001",
+    "vue": "3.4.21",
+    "vue-i18n": "^9.1.9"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "3.4.31",
+    "@dcloudio/uni-automator": "3.0.0-alpha-5030720261117001",
+    "@dcloudio/uni-cli-shared": "3.0.0-alpha-5030720261117001",
+    "@dcloudio/uni-stacktracey": "3.0.0-alpha-5030720261117001",
+    "@dcloudio/vite-plugin-uni": "3.0.0-alpha-5030720261117001",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.12.1",
+    "prettier": "^3.10.1",
+    "sass": "^1.77.8",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^8.73.0",
+    "vite": "5.2.8",
+    "vue-tsc": "^2.0.6"
+  }
+}
